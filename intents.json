@@ -1,0 +1,47 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Salam", "hello","hey","hola", "hello","activate"],
+         "responses": ["Hello", "Nice to Meet You", "Salaam , How can I help today?", "Hi, how can i assist you today?"],
+         "context": [""]
+        },
+        {"tag":"introduction",
+        "patterns":["who are you ", "who is this", "what is this "," who am i talking to"],
+        "responses":["Hi,I am a Voice Assistant", "I am a Voice Assistant", "Hi, I am a voice assistant , ask me questions!"],
+        "context":[""]
+        },
+        {
+            "tag": "name",
+            "patterns":["what is your name", "your name"],
+            "responses":["My name is Aisha, I am a Voice Assistant", "I am Aisha. Artificial Intelligence Supported Humanly Assistant"],
+            "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "Khuda Hafiz", "Goodbye", "good day", "abhi kelye itna hi"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure", "You are Welcome"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": [],
+         "context": [""]
+        },
+
+        {
+            "tag": "creators",
+            "patterns": ["who created you", "your creator" ,"your builder", "who made you"],
+            "responses": ["i am created by salman ali, ashley solomon and hammad sheikh"],
+            "context": [""]
+           },
+        
+         {"tag": "error",
+         "patterns": ["not what I asked", "wrong answer", "please help me", "why can't you asnwer","invalid", "that is wrong","no"],
+         "responses": ["I am sorry", "I apologize", "I am sorry, I could not help"],
+         "context": [""]
+        }
+   ]
+}

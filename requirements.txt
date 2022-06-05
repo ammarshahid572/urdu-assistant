@@ -1,0 +1,11 @@
+tensorflow==2.4.0
+Flask==2.0.2
+Librosa==0.8.1
+google-cloud-storage==1.42.3
+wolframalpha==5.0.0
+nltk==3.6.5
+pickle5==0.0.12
+google-cloud-speech==2.11.1
+google-cloud==0.34.0
+google-cloud-translate==2.0.1
+youtube-search-python==1.6.2
